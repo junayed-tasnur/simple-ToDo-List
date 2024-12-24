@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/main.css" />
   </head>
-  <body class="bg-slate-900 min-h-screen flex items-start justify-center">
+  <body class="bg-slate-900 min-h-screen flex items-center justify-center">
     <div class="w-full max-w-md bg-[#808e9b] p-6 rounded shadow-gray-200">
       <header class="mb-4 text-center">
         <h1 class="text-2xl font-bold">To-Do List</h1>
@@ -20,11 +20,12 @@
         /><br />
         <button
           id="add"
-          class="w-full bg-[#3B82F6] mt-2 rounded text-xl text-white p-2"
+          class="w-full bg-[#3B82F6] mt-2 rounded text-xl text-white p-2 hover:[#7CDEDC]"
         >
           Add
         </button>
       </div>
+      <ul id="toDoList" class="space-y-1"></ul>
     </div>
     <script src="script.js"></script>
   </body>
